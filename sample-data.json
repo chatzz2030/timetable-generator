@@ -1,0 +1,117 @@
+{
+  "demo_config": {
+    "working_days": 6,
+    "periods_per_day": 7,
+    "period_duration": 50,
+    "start_time": "08:00",
+    "end_time": "15:00",
+    "teachers": [
+      "Dr. Sarah Johnson",
+      "Prof. Michael Chen",
+      "Dr. Emily Rodriguez",
+      "Prof. David Wilson",
+      "Dr. Lisa Thompson",
+      "Prof. James Parker",
+      "Dr. Maria Garcia",
+      "Prof. Robert Kumar",
+      "Dr. Jennifer Lee",
+      "Prof. Ahmed Hassan"
+    ],
+    "sections": [
+      {
+        "name": "CS-A",
+        "subjects": [
+          "Data Structures",
+          "Algorithms",
+          "Database Systems",
+          "Computer Networks",
+          "Programming Lab",
+          "Database Lab"
+        ]
+      },
+      {
+        "name": "CS-B", 
+        "subjects": [
+          "Operating Systems",
+          "Software Engineering",
+          "Computer Graphics",
+          "Machine Learning",
+          "OS Lab",
+          "Graphics Lab"
+        ]
+      },
+      {
+        "name": "DS-A",
+        "subjects": [
+          "Statistics",
+          "Data Mining",
+          "Python Programming",
+          "Big Data Analytics",
+          "Python Lab",
+          "Analytics Lab"
+        ]
+      },
+      {
+        "name": "AI-A",
+        "subjects": [
+          "Artificial Intelligence",
+          "Neural Networks",
+          "Computer Vision",
+          "Natural Language Processing",
+          "AI Lab",
+          "Vision Lab"
+        ]
+      },
+      {
+        "name": "IT-A",
+        "subjects": [
+          "Web Development",
+          "Mobile App Development",
+          "Cloud Computing",
+          "Cybersecurity",
+          "Web Lab",
+          "Mobile Lab"
+        ]
+      }
+    ],
+    "teacher_subjects": {
+      "Dr. Sarah Johnson": ["Data Structures", "Algorithms", "Programming Lab"],
+      "Prof. Michael Chen": ["Database Systems", "Database Lab", "Big Data Analytics"],
+      "Dr. Emily Rodriguez": ["Computer Networks", "Operating Systems", "OS Lab"],
+      "Prof. David Wilson": ["Software Engineering", "Web Development", "Web Lab"],
+      "Dr. Lisa Thompson": ["Computer Graphics", "Computer Vision", "Graphics Lab", "Vision Lab"],
+      "Prof. James Parker": ["Machine Learning", "Artificial Intelligence", "AI Lab"],
+      "Dr. Maria Garcia": ["Statistics", "Data Mining", "Analytics Lab"],
+      "Prof. Robert Kumar": ["Python Programming", "Python Lab", "Mobile App Development"],
+      "Dr. Jennifer Lee": ["Neural Networks", "Natural Language Processing", "Cybersecurity"],
+      "Prof. Ahmed Hassan": ["Cloud Computing", "Mobile Lab", "Cybersecurity"]
+    }
+  },
+  "small_demo": {
+    "working_days": 5,
+    "periods_per_day": 6,
+    "period_duration": 45,
+    "start_time": "09:00",
+    "end_time": "14:30",
+    "teachers": [
+      "Mr. John Smith",
+      "Ms. Jane Doe",
+      "Dr. Alex Brown"
+    ],
+    "sections": [
+      {
+        "name": "CS-101",
+        "subjects": ["Mathematics", "Physics", "Programming", "Computer Lab"]
+      },
+      {
+        "name": "IT-101", 
+        "subjects": ["Mathematics", "English", "Networking", "Network Lab"]
+      }
+    ],
+    "teacher_subjects": {
+      "Mr. John Smith": ["Mathematics", "Physics"],
+      "Ms. Jane Doe": ["Programming", "Computer Lab", "English"],
+      "Dr. Alex Brown": ["Networking", "Network Lab"]
+    }
+  }
+}
