@@ -1,0 +1,18 @@
+modules = ["python-3.10", "nodejs-18"]
+
+[nix]
+channel = "stable-22_11"
+
+run = "python main.py"
+
+[deployment]
+run = ["python", "main.py"]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[env]
+PYTHONPATH = "$PWD"
+REACT_APP_API_URL = "https://$REPL_SLUG.$REPL_OWNER.repl.co"
